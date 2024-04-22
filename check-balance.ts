@@ -15,7 +15,7 @@ console.log(`✅ Connected!`);
 /**
  * 从网络读取账户余额
  */
-const address = new PublicKey('CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN');
+const address = new PublicKey('<your public key>"');
 const balance = await connection.getBalance(address);
 
 console.log(`The balance of the account at ${address} is ${balance} lamports`); 
